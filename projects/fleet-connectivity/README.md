@@ -6,7 +6,7 @@
 **Status:** Operational strategy with continuous evaluation  
 **Focus:** Starlink | Eutelsat OneWeb | VSAT | Iridium | Inmarsat | Multi-WAN | Business Continuity
 
-../../README.md
+[← Return to main portfolio](../../README.md)
 
 ---
 
@@ -573,4 +573,4 @@ All diagrams are conceptual and are intended only to demonstrate the architectur
 
 ---
 
-../../README.md
+[← Return to main portfolio](../../README.md)
