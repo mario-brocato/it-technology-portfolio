@@ -6,7 +6,7 @@
 **Status:** Delivered across multiple project phases with continuing involvement  
 **Focus:** Newbuild | IT Infrastructure | Electronics | Communications | Documentation | Commissioning
 
-../../README.md
+[← Return to main portfolio](../../README.md)
 
 ---
 
@@ -815,4 +815,4 @@ All diagrams and process descriptions are conceptual and are intended only to de
 
 ---
 
-../../README.md
+[← Return to main portfolio](../../README.md)
