@@ -188,17 +188,7 @@ Development and implementation of a structured cybersecurity approach for distri
 
 ### Key Areas
 
-- Cybersecurity governance
-- IT and cyber incident processes
-- Vessel IT change management
-- IT/OT security considerations
-- Network segmentation
-- Endpoint security
-- Remote vendor access
-- Removable-media controls
-- Security awareness
-- IT Officer cybersecurity training
-- Operational cybersecurity routines
+Key areas include cybersecurity governance, IT/OT security, incident management, change control, remote access, endpoint security and cybersecurity training.
 
 The objective is to translate enterprise cybersecurity principles into controls and procedures that remain practical in real maritime operations.
 
@@ -212,46 +202,7 @@ The objective is to translate enterprise cybersecurity principles into controls 
 
 Development and evaluation of resilient connectivity architectures for vessels operating across geographically challenging environments.
 
-The work considers multiple communications technologies rather than relying on a single provider or satellite architecture.
-
-### Key Areas
-
-- LEO satellite connectivity
-- GEO VSAT
-- L-band services
-- Polar coverage
-- WAN redundancy
-- Service availability
-- Vessel operational requirements
-- Bandwidth demand
-- Provider diversification
-- Business continuity
-- Failover strategy
-- Commercial sustainability
-
-### Conceptual Architecture
-
-```text
-                   EXPEDITION VESSEL
-
-                         |
-           +-------------+-------------+
-           |             |             |
-          LEO           GEO          L-Band
-           |             |             |
-     Starlink /         VSAT         Iridium /
-      OneWeb                         Inmarsat
-           |             |             |
-           +-------------+-------------+
-                         |
-                 WAN / Security Layer
-                         |
-                    Core Network
-                         |
-          +--------------+--------------+
-          |              |              |
-         IT             OT         User Services
-```
+The strategy considers LEO, GEO and L-band services, WAN redundancy, polar coverage, business continuity and provider diversification.
 
 [**View the full Fleet Infrastructure Case Study →**](projects/fleet-connectivity/README.md)
 
@@ -263,130 +214,7 @@ The work considers multiple communications technologies rather than relying on a
 
 Modernization and lifecycle management of distributed IT infrastructure supporting vessel and shore operations.
 
-The objective is to provide secure, resilient, manageable, and standardized infrastructure across geographically distributed environments.
-
-### Key Areas
-
-#### Compute
-
-- Windows Server
-- Hyper-V virtualization
-- Virtual machines
-- Physical server infrastructure
-- Active Directory
-- Server lifecycle management
-- Infrastructure monitoring
-- Backup and recovery considerations
-
-#### Microsoft Cloud
-
-- Microsoft 365
-- Exchange Online
-- Microsoft Teams
-- SharePoint Online
-- OneDrive
-- Microsoft Intune
-- Identity and access management
-- Endpoint management
-
-#### Networking
-
-- LAN
-- WAN
-- WLAN
-- VLAN architecture
-- Network segmentation
-- Firewalls
-- Multi-WAN connectivity
-- Satellite WAN integration
-- Remote-site infrastructure
-
-#### Security
-
-- Endpoint security
-- Identity and access control
-- Patch management
-- Network protection
-- Configuration management
-- Remote-access controls
-- Infrastructure governance
-
-### Environment
-
-Managing maritime infrastructure presents a different challenge from managing a conventional office environment.
-
-Each vessel effectively operates as a geographically mobile remote site with its own:
-
-- Compute infrastructure
-- Network infrastructure
-- Internet connectivity
-- User environment
-- Operational technology
-- Security requirements
-- Business applications
-- Local support requirements
-
-The underlying challenge can be summarized as:
-
-> **Managing distributed enterprise infrastructure where each remote site happens to be a ship.**
-
-### Conceptual Architecture
-
-```text
-                     CLOUD SERVICES
-                          |
-              +-----------+-----------+
-              |                       |
-        Microsoft 365             Business
-        Cloud Services             Systems
-              |                       |
-              +-----------+-----------+
-                          |
-                     INTERNET
-                          |
-                  Multi-WAN Layer
-                          |
-                  Security Gateway
-                          |
-                     Core Network
-                          |
-          +---------------+---------------+
-          |               |               |
-      Servers &       Corporate       Operational
-    Infrastructure       IT              Systems
-          |               |               |
-      Hyper-V         Endpoints          OT
-      Windows          Wi-Fi           Systems
-      Server          Services
-```
-
-> This diagram is a generalized reference architecture and does not represent the production configuration of any specific vessel or organization.
-
-### Professional Focus
-
-This work demonstrates experience across the complete infrastructure lifecycle:
-
-```text
-Architecture
-     |
-     v
-Technology Selection
-     |
-     v
-Implementation
-     |
-     v
-Operations
-     |
-     v
-Security
-     |
-     v
-Lifecycle Management
-     |
-     v
-Continuous Improvement
-```
+The environment includes server infrastructure, virtualization, cloud services, networking, endpoint management and cybersecurity.
 
 [**View the full Fleet Infrastructure case study →**](projects/fleet-infrastructure/README.md)
 
@@ -396,110 +224,7 @@ Continuous Improvement
 
 **Focus:** Newbuild | IT Infrastructure | Electronics | Communications | Commissioning
 
-Technical involvement across the lifecycle of expedition-vessel newbuilding projects, from early technical review through shipyard implementation, commissioning, handover, and operational integration.
-
-Newbuild projects require technology decisions to be coordinated with shipyard activities, equipment manufacturers, system integrators, vendors, vessel operations, and long-term fleet requirements.
-
-### Project Lifecycle
-
-```text
-Design
-   |
-   v
-Technical Review
-   |
-   v
-Vendor Coordination
-   |
-   v
-Shipyard Installation
-   |
-   v
-System Integration
-   |
-   v
-Commissioning
-   |
-   v
-Technical Handover
-   |
-   v
-Operational Fleet
-```
-
-### Areas of Involvement
-
-- Shipboard IT infrastructure
-- Network architecture
-- Server infrastructure
-- Communications
-- Satellite connectivity
-- IT/electronics systems
-- Technical documentation
-- Equipment review
-- Vendor coordination
-- System integration
-- Commissioning support
-- Technical handover
-- Operational transition
-- Technical asset management
-- Documentation management
-
-### Technology Perspective
-
-A vessel newbuild is not simply an equipment-installation project.
-
-Technology has to move successfully through several stages:
-
-```text
-REQUIREMENT
-     |
-     v
-DESIGN
-     |
-     v
-TECHNICAL REVIEW
-     |
-     v
-PROCUREMENT / VENDOR
-     |
-     v
-INSTALLATION
-     |
-     v
-INTEGRATION
-     |
-     v
-TESTING & COMMISSIONING
-     |
-     v
-DOCUMENTATION
-     |
-     v
-HANDOVER
-     |
-     v
-OPERATIONS
-```
-
-The objective is to ensure that technology delivered during construction can ultimately be **operated, maintained, secured, documented, and supported throughout the vessel lifecycle**.
-
-### Key Considerations
-
-Newbuild technology projects require coordination across several disciplines:
-
-- Shipyard
-- Vessel owner/manager
-- IT
-- Electronics
-- Communications
-- Equipment manufacturers
-- System integrators
-- Operational departments
-- Technical management
-- Service providers
-
-This experience provides a bridge between **enterprise IT, maritime technology, project management, and shipbuilding environments**.
+Technical involvement across the lifecycle of expedition-vessel newbuilding projects, from technical review and vendor coordination through commissioning, handover and operational transition.
 
 [**View the full Newbuild Technology case study →**](projects/newbuild-technology/README.md)
 
