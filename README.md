@@ -202,7 +202,7 @@ Development and implementation of a structured cybersecurity approach for distri
 
 The objective is to translate enterprise cybersecurity principles into controls and procedures that remain practical in real maritime operations.
 
-[View Maritime Cybersecurity Case Study](projects/maritime-cybersecurity/README.md)
+[**View the full Maritime Cybersecurity Case Study→**](projects/maritime-cybersecurity/README.md)
 
 ---
 
@@ -252,6 +252,9 @@ The work considers multiple communications technologies rather than relying on a
           |              |              |
          IT             OT         User Services
 ```
+
+[**View the full Fleet Infrastructure Case Study →**](projects/fleet-connectivity/README.md)
+
 ---
 
 ## 🖥️ 03 | Fleet IT Infrastructure Modernization
